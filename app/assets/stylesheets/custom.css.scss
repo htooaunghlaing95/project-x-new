@@ -1,0 +1,30 @@
+@import "bootstrap";
+@import "font-awesome";
+
+body,
+html {
+  width: 100%;
+  heigh: 100%;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F17D0F;
+}
+
+hr.light {
+  border-color: #ffffff;
+}
+
+.section-heading {
+  margin-top: 25px;
+}
+
+.text-faded {
+  color: (#ffffff, .3);
+}
+#portfolio {
+  margin-top: 70px;
+}
+

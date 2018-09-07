@@ -1,0 +1,75 @@
+#mainNav {
+
+  #logo {
+    float: left;
+    height: 70px;
+    width: 140px;
+  }
+  #navbarResponsive {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: #F17D0F;
+          font-family: 'Righteous', cursive;
+          padding: 1rem 0.5rem;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          &:hover {
+            background: -webkit-linear-gradient(red, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+.scrolled{
+
+  background: opacify(black, .2);
+
+
+  #navbarResponsive {
+    .navbar-nav{
+      .nav-item {
+        padding: 1rem 2rem;
+        -webkit-transition: 0.35s all ease;
+        -moz-transition: 0.35s all ease;
+        -ms-transition: 0.35s all ease;
+        -o-transition: 0.35s all ease;
+        transition: 0.35s all ease;
+      }
+    }
+  }
+
+  #navbarResponsive {
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          transition: 0.2s all ease-in-out ;
+        }
+      }
+    }
+  }
+  #navbarResponsive {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          &:hover {
+            background: -webkit-linear-gradient(red, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

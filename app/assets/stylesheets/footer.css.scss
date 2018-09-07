@@ -1,0 +1,39 @@
+.contact-section {
+  background-color: black;
+  padding: 5rem 0 0;
+  .card {
+    border: 0;
+    border-bottom: 0.25rem solid #F17D0F;
+    h4 {
+      font-size: 0.8rem;
+      font-family: 'Varela Round';
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+    }
+    hr {
+      border-color: #F17D0F;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
+
+    i{
+      color: #F17D0F !important;
+    }
+  }
+
+}
+
+.footer {
+  background-color: black;
+  padding-top: 10px;
+
+  small{
+    background: -webkit-linear-gradient(orangered, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }}
+
+
+
+
+

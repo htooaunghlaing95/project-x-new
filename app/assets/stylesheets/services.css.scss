@@ -1,0 +1,37 @@
+.service-box {
+  max-width: 400px;
+}
+
+.section-heading {
+  font-family: 'Righteous', cursive;
+  background: -webkit-linear-gradient(orangered, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  //color: #F17D0F;
+  letter-spacing: 1px;
+}
+
+.fa-calendar {
+  background: -webkit-linear-gradient(orangered, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  //color: #F17D0F !important;
+}
+
+.fa-line-chart {
+  background: -webkit-linear-gradient(orangered, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  //color: #F17D0F !important;
+}
+
+.fa-angellist {
+  background: -webkit-linear-gradient(orangered, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  //color: #F17D0F !important;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+}

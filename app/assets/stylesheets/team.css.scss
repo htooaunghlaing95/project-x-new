@@ -1,0 +1,45 @@
+.section-sub-title{
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  padding-top: 2px;
+}
+
+.team{
+  padding-top: 22px;
+  align-content: center;
+  background-color: white;
+}
+
+.team-section-heading{
+  font-family: 'Righteous', cursive;
+  background: -webkit-linear-gradient(orangered, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  //color: #F17D0F;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.team-members {
+  margin-bottom: 50px;
+  text-align: center;
+  img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid white;
+  }
+  h4 {
+    font-family: 'Righteous', cursive;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.large{
+  font-size: 40px;
+}
